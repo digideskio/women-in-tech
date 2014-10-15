@@ -13,7 +13,7 @@ destination: women-in-tech
 permalink: /:categories/:year/:month/:day/:title 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
-paginate: 25
+paginate: 1000
 paginate_path: "/updates/page:num"
 
 production_url : http://women-in-tech.apievangelist.com
