@@ -1,4 +1,4 @@
-title : Template
+title : Women in Tech
 
 markdown: kramdown
 
@@ -7,8 +7,8 @@ lsi: false
 pygments: true
 auto: true
 
-source: template
-destination: template
+source: women-in-tech
+destination: women-in-tech
 
 permalink: /:categories/:year/:month/:day/:title 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
@@ -16,9 +16,9 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 paginate: 25
 paginate_path: "/blog/page:num"
 
-production_url : http://template.apievangelist.com
+production_url : http://women-in-tech.apievangelist.com
 
-BASE_PATH : http://template.apievangelist.com
+BASE_PATH : http://women-in-tech.apievangelist.com
 
 archive_path: /archive.html
 categories_path : /categories.html
