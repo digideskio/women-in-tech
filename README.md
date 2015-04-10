@@ -1,4 +1,4 @@
-Template
+Women in Tech
 ========
 
-This is my API Evangelist template for Github repos.
+This is where I house all my women in tech research - http://women-in-tech.apievangelist.com/
