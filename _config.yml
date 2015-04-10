@@ -1,25 +1,22 @@
-title : Women in Tech
-
-markdown: kramdown
-
-safe: true
-lsi: false
-pygments: true
-auto: true
-
-source: women-in-tech
-destination: women-in-tech
+title:        {"Alpha"}
+url:          http://alpha.apievangelist.com
+version:      1.1.1
+author:
+  name:       'Kin Lane'
+  email:      'info@apievangelist.com'
+markdown:     rdiscount
+permalink:    pretty
+pygments:     true
 
 permalink: /:categories/:year/:month/:day/:title 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
-paginate: 1000
-paginate_path: "/updates/page:num"
+paginate: 50
+paginate_path: "/blog/page:num"
 
-production_url : http://women-in-tech.apievangelist.com
+production_url : http://alpha.apievangelist.com
 
-BASE_PATH : http://women-in-tech.apievangelist.com
+BASE_PATH : http://alpha.apievangelist.com
 
-archive_path: /archive.html
 categories_path : /categories.html
 tags_path : /tags.html
